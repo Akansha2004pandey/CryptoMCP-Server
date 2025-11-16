@@ -134,6 +134,6 @@ ws://localhost:8000/ws/price/{symbol}?convert=USD
 | GET    | `/api/crypto/info`       | Metadata               |
 
 ## Installation 
-pip install -r requirements.txt
-SANDBOX_COIN_BASE_API_KEY=your_sandbox_key_here
-uvicorn app.main:app --reload
+-pip install -r requirements.txt
+-SANDBOX_COIN_BASE_API_KEY=your_sandbox_key_here # add this in env file
+-uvicorn app.main:app --reload
