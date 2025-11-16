@@ -39,29 +39,7 @@ This project supports:
 
 # 📌 3. Project Structure
 
-crypto-mcp/
-│
-├── app/
-│ ├── main.py # FastAPI entrypoint
-│ ├── api/
-│ │ ├── cryptocurrency.py # Crypto endpoints
-│ │ ├── exchange.py # Exchange endpoints
-│ │ ├── metrics.py # Global metrics
-│ │ ├── tools.py # Conversion tools
-│ │
-│ ├── core/
-│ │ ├── cmc_client.py # CMC API Wrapper
-│ │ ├── cache.py # TTL Cache
-│ │
-│ ├── ws/
-│ ├── realtime.py 
-│
-├── tests/
-│ ├── test_app.py # Test suite
-│
-├── .env # API key
-├── requirements.txt
-└── README.md
+<img width="372" height="639" alt="image" src="https://github.com/user-attachments/assets/280a6f42-fdd3-4cee-9e38-fbf96de21d9c" />
 
 
 ---
@@ -134,6 +112,8 @@ ws://localhost:8000/ws/price/{symbol}?convert=USD
 | GET    | `/api/crypto/info`       | Metadata               |
 
 ## Installation 
--pip install -r requirements.txt
--SANDBOX_COIN_BASE_API_KEY=your_sandbox_key_here # add this in env file
--uvicorn app.main:app --reload
+1.pip install -r requirements.txt
+
+2.SANDBOX_COIN_BASE_API_KEY=your_sandbox_key_here # add this in env file
+
+3.uvicorn app.main:app --reload
